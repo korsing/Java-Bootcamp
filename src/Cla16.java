@@ -15,8 +15,8 @@ public class Cla16 {
 //		Sing16 s1 = new Sing16(); 
 //		Sing16 s2 = new Sing16(); 
 		
-		Sing16 s1 = Sing16.getInstance();
-		Sing16 s2 = Sing16.getInstance();
+		Sing16 s1 = Sing16.getInstance(); // 이 경우는 이미 static으로 선언된 생성자의 인스턴스를
+		Sing16 s2 = Sing16.getInstance(); // 복사해서 다른 변수에 매칭만 시켜주는 것
 		
 		System.out.println(s1 == s2);
 
