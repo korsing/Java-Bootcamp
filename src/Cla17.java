@@ -45,12 +45,12 @@ public class Cla17 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Dog17 d1 = new Dog17("Morangi");
-//		Cat17 c1 = new Cat17();
-//		
-//		System.out.println(d1.name);
-//		System.out.println(c1.name);
-//		
-//		d1.cry();
+		Cat17 c1 = new Cat17();
+		
+		System.out.println(d1.name);
+		System.out.println(c1.name);
+		
+		d1.cry();
 	}
 
 }
